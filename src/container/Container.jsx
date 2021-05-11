@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import RandomColor from '../components/randomColor/RandomColor';
 import { randomColor } from '../utils/randomColor';
-const babyImg = 'url(public/baby.jpeg)';
+const babyImg = 'url(baby.jpeg)';
 
 export default class Container extends Component {
     //setting state-- color is undefined to start
