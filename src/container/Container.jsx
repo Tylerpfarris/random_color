@@ -28,6 +28,6 @@ export default class Container extends Component {
 
     render() {
         const { color } = this.state;
-        return <RandomColor color={color} />;
+        return <RandomColor data-testid='RandomColor' color={color} />;
     }
 }
